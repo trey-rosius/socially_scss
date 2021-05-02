@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root{
+    --app-background: #eaebf5;
+    --chat-background: #fff;
+    --link-color: #c0c1c5;
+    --navigation-bg: #fff;
+    --navigation-box-shadow: 0 2px 6px 0 rgba(136, 148, 171, 0.2), 0 24px 20px -24px rgba(71, 82, 107, 0.1);
+    --main-color: #3d42df;
+    --message-bg: #f3f4f9;
+    --message-bg-2: #3d42df;
+    --message-text: #2c303a;
+    --placeholder-text: #a2a4bc;
+    --button-bg: #fff;
+    --theme-bg: #1f1d2b;
+    --font-family:'Montserrat', sans-serif;
+    --app-name-font:'Lobster', cursive;
+    --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+
+    --color-grey-light-3: #d3c7c3; // Light text (placeholder)
+    --color-grey-dark-1: #615551; // Normal text
+    --color-grad-1: #fccb90;
+    --color-grad-2: #d57eeb;
+     --gradient: linear-gradient(to right bottom, var(--color-grad-1), var(--color-grad-2));
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  
+    font-family: var(--font-family);
+  }
+
+  button {
+    outline : none;
+    transition: .2s;
+    cursor: pointer;
+    
+    &:hover {
+      opacity: .7;
+    }
+  }
+  a { text-decoration: none; }
+    
